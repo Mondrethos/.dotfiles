@@ -12,7 +12,7 @@ binds {
     Mod+Comma { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "settings" "toggle"; }
 
     // ── Applications
-    Mod+Return                          hotkey-overlay-title="Open Terminal: Alacritty" { spawn "alacritty"; }
+    Mod+Return                          hotkey-overlay-title="Open Terminal: Alacritty" { spawn "kitty"; }
     Mod+CTRL+Return                     hotkey-overlay-title="Open App Launcher: noctalia launcher" { spawn-sh "qs -c noctalia-shell ipc call launcher toggle"; }
     Mod+B                               hotkey-overlay-title="Open Browser: firefox" { spawn "firefox"; }
     Mod+ALT+L                           hotkey-overlay-title="Lock Screen: noctalia lock" { spawn-sh "qs -c noctalia-shell ipc call lockScreen lock"; }
